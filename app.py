@@ -24,6 +24,24 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(BASE_DIR, "career_model.pkl")
 model = joblib.load(model_path)
 
+
+# --------------------------------------------------
+# SIDEBAR NAVIGATION
+# --------------------------------------------------
+
+with st.sidebar:
+    st.title("🎓 Career Guidance")
+    st.write("Machine Learning Based Career Recommendation")
+    st.divider()
+    st.page_link("app.py", label="Home", icon="🏠")
+    st.page_link("pages/1_Career_Dashboard.py", label="Career Dashboard", icon="📊")
+    st.page_link("pages/2_Skill_Gap_Analyzer.py", label="Skill Gap Analyzer", icon="🛠️")
+    st.page_link("pages/3_Learning_Roadmap.py", label="Learning Roadmap", icon="🗺️")
+    st.page_link("pages/4_Job_Market_Insights.py", label="Job Market Insights", icon="💼")
+    st.page_link("pages/5_Career_Quiz.py", label="Career Quiz", icon="❓")
+    st.page_link("pages/6_Resume_Builder.py", label="Resume Builder", icon="📝")
+    st.page_link("pages/7_Resume_Analyzer.py", label="Resume Analyzer", icon="📄")
+
 # --------------------------------------------------
 # HOME PAGE
 # --------------------------------------------------
