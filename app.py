@@ -7,11 +7,14 @@ import os
 # PAGE CONFIGURATION
 # --------------------------------------------------
 
+
 st.set_page_config(
     page_title="AI Career Guidance System",
     page_icon="🎓",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
+
 
 # --------------------------------------------------
 # LOAD MODEL
