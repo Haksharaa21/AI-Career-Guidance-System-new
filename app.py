@@ -35,13 +35,14 @@ with st.sidebar:
     st.write("Machine Learning Based Career Recommendation")
     st.divider()
     st.page_link("app.py", label="Home", icon="🏠")
-    st.page_link("pages/1_Career_Dashboard.py", label="Career Dashboard", icon="📊")
-    st.page_link("pages/2_Skill_Gap_Analyzer.py", label="Skill Gap Analyzer", icon="🛠️")
-    st.page_link("pages/3_Learning_Roadmap.py", label="Learning Roadmap", icon="🗺️")
-    st.page_link("pages/4_Job_Market_Insights.py", label="Job Market Insights", icon="💼")
-    st.page_link("pages/5_Career_Quiz.py", label="Career Quiz", icon="❓")
-    st.page_link("pages/6_Resume_Builder.py", label="Resume Builder", icon="📝")
-    st.page_link("pages/7_Resume_Analyzer.py", label="Resume Analyzer", icon="📄")
+    st.page_link("pages/1_career_dashboard.py", label="Career Dashboard", icon="📊")
+    st.page_link("pages/2_skill_gap.py", label="Skill Gap Analyzer", icon="🛠️")
+    st.page_link("pages/3_learning_roaadmap.py", label="Learning Roadmap", icon="🗺️")
+    st.page_link("pages/4_course_recommendation.py", label="Course Recommendation", icon="📚")
+    st.page_link("pages/5_career_comparision.py", label="Career Comparison", icon="⚖️")
+    st.page_link("pages/6_AI_career_chatbot.py", label="AI Career Chatbot", icon="🤖")
+    st.page_link("pages/7_resume_analyzer.py", label="Resume Analyzer", icon="📄")
+
 
 # --------------------------------------------------
 # HOME PAGE
